@@ -1,6 +1,6 @@
 from graphics import Window
 from cells import Cell
-
+from maze_class import Maze
 
 def main():
     win = Window(800, 600)
