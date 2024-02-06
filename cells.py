@@ -63,4 +63,4 @@ class Cell:
             point1 = Point(center_x1, center_y1)
             point2 = Point(center_x2, center_y2)
             line = Line(point1, point2)
-            self._win.draw_line(line, "gray")
+            self._win.draw_line(line, "green")
