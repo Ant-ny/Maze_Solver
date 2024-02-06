@@ -111,7 +111,7 @@ class Maze:
         return self._solve_r(0, 0)
 
     def _solve_r(self, i, j):
-        self._animate()
+        self._animate(.2)
         self._cells[i][j].visited = True
         if self._cells[i][j] is self._cells[-1][-1]:
             return True
